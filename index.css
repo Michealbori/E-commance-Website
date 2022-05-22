@@ -1,0 +1,634 @@
+.container{
+    margin: auto;
+    margin-top: 20px;
+    /* border: 3px solid black; */
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.onlystyle{
+    font-family: georgia;
+    font-weight: 900;
+    font-style: italic;
+    color: #f44336;
+}
+.logo{
+    font-family: georgia;
+    font-weight: 900;
+    font-style: italic; 
+}
+.nav-link{
+    font-family: georgia;
+    font-weight: 900;
+    font-style: italic;
+    color: #f44336;
+}
+.card-title{
+    font-family: georgia;
+    font-weight: 900;
+    color: #000;
+}
+.btn-primary{
+    font-family: georgia;
+    font-weight: 900;
+    color: #fff;
+}
+
+.topics{
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 900;
+font-style: italic;
+background-color:rgb(251, 59, 59);
+height: 2em; 
+color: aliceblue;
+font-family: georgia;
+}
+.me_width {
+    width: 50%
+}
+.purchase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: seagreen;
+    width: 5.3em;
+    color: aliceblue;
+    border-radius: 0.2em;
+    margin-top: 1em;
+}
+.login{
+    background-color: seagreen;
+    width: 3.3em;
+    color: aliceblue; 
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-left: 0.3em;
+    font-family: georgia;
+    border: 2px solid #ffff;
+}
+.SignUp{
+    background-color: seagreen;
+    width: 4.3em;
+    color: aliceblue; 
+    margin-right: 1em;
+    margin-top: 1em;
+    padding-left: 0.3em;
+    font-family: georgia;
+    border: 2px solid #ffff;
+}
+
+@media screen and (max-width:768px) {
+    .me_width {
+        width: 100%
+    }
+    #Strawberry{
+        font-size: 1em;
+    }
+    .num{
+        width: 30px;
+        height: 30px;
+        border: 3px solid black;
+        border-radius: 5px;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    #total-price{
+        font-size: 1em;
+        float: left;
+    }
+    .uk-border-circle{
+        width: 35px !important;
+        height: 40px !important;
+    }
+
+}
+
+/* form model */
+
+
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.fsign {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+
+.fsign:hover {
+  opacity:1;
+}
+.fsign1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+
+.fsign1:hover {
+  opacity:1;
+}
+.signup {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+
+.signup:hover {
+  opacity:1;
+}
+.signup1 {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+
+.signup1:hover {
+  opacity:1;
+}
+.loginme1 {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+
+
+.loginme1:hover {
+  opacity:1;
+}
+.loginme {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+  
+  
+  .loginme:hover {
+    opacity:1;
+  }
+
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+.container1 {
+  padding: 16px;
+
+}
+.container2 {
+  padding: 16px;
+display: flex;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+.fsign{
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+/* Clear floats */
+.clearfix1::after {
+  content: "";
+  clear: both;
+
+}
+.clearfix1 {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 4px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .next {
+    background-color: #4CAF50;
+    color: white;
+  }  
+
+  /* Login */
+
+  /* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Avater  */
+.imgcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* forget/remember password */
+.forrem{
+    display: flex;
+    justify-content: space-around;
+}
+
+  /* Modal Content/Box */
+  .modal1-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+/* login button */
+.fsign1{
+    width: 75px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+  /* Gray */
+.default {
+  border-color: #f44336;
+  color: black;
+  height: 2.4em;
+  margin-top: 1em;
+}
+
+.default:hover {
+  background: #f44336;
+  color: white;
+}
+.items_qualification{
+  display: block;
+  font-size: 2em;
+  font-style: italic;
+
+}
+.items_qualification h5{
+ font-weight: 900;
+ border-left: 3px solid #f44336; 
+ margin-top: 1em;
+ padding-left: 0.2em;
+
+
+}
+.items_qualification h4{
+ font-weight: 900;
+ margin-top: 1em;
+ padding-left: 0.2em;
+
+
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.header_style{
+   background-color: #c5cbd7;
+   height: 8em;
+   
+}
+.header_style h2{
+display: flex;
+align-items: center;
+justify-content: center;
+   
+}
+
+.header_styling{
+  color: #f44336;
+  font-weight: 900;
+ 
+}
+#my_cart{
+  color: #e39e39;
+  font-size: 1.4em;
+}
+
+.cart_number{
+  position: absolute;
+  color: #000;
+  font-size: 0.5em;
+  font-weight: 900;
+}
+
+#allCart{
+  position: relative;
+  color: #4CAF50;
+}
+
+#mySidenav{
+ position: fixed;
+bottom: 20px;
+right: 0;
+width: 80px;
+font-size: 40px;
+
+}
+.items_qualification{
+  display: block;
+  font-size: 2em;
+  font-style: italic;
+
+}
+.items_qualification h5{
+ font-weight: 900;
+ border-left: 3px solid #f44336; 
+ margin-top: 1em;
+ padding-left: 0.2em;
+
+
+}
+.allInOne{
+  display: flex; 
+   justify-content: center;
+  justify-content: space-around;
+}
+.all_cost{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+  font-style: italic;
+  font-weight: 900;
+}
+#total_para{
+  color: #4CAF50;
+
+}
+
+/* Gray */
+.default {
+  border-color: #f44336;
+  color: black;
+  height: 2.4em;
+  margin-top: 1em;
+}
+
+.default:hover {
+  background: #f44336;
+  color: white;
+}
+.default1 {
+  border-color: #ffff;
+  background-color: #4CAF50;;
+  color: black;
+  height: 2.4em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.default1:hover {
+  background: #f44336;
+  color: white;
+}
+
+.items_qualification h4{
+  font-weight: 900;
+  margin-top: 1em;
+  padding-left: 0.2em;
+ 
+ 
+ }
+ option{
+  font-weight: 900;
+  padding-left: 0.2em;
+ }
+
+ .inputMe{
+   width: 1em;
+ }
+
+@media screen and (max-width:768px) {
+    #mySidenav{
+        position: fixed;
+       bottom: 20px;
+       right: 0;
+       width: 80px;
+       font-size: 40px;
+       
+       }
+
+       .fsign {
+        background-color: #4CAF50;
+        color: white;
+        padding: 4px 10px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 14%;
+        margin-left: 10px;
+        border-radius: 70%;
+        opacity: 0.9;
+        font-size: 15px;
+      }
+      
+      
+      .fsign:hover {
+        opacity:1;
+      }
+      .fsign1 {
+        background-color: #4CAF50; 
+        color: white;
+        padding: 4px 10px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 12%;
+        margin-left: 10px;
+        border-radius: 50%;
+        opacity: 0.9;
+        font-size: 13px;
+      }
+      
+      
+      .fsign1:hover {
+        opacity:1;
+      }
+
+      /* Clear floats */
+.clearfix1::after {
+    content: "";
+    clear: both;
+  
+  }
+  .clearfix1 {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+  }
+
+}
